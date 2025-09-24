@@ -10,4 +10,4 @@ class Users(Base):
     user_email = Column(String, nullable=False, unique=True)
     age = Column(Integer, nullable=True)
     zip = Column(String, nullable=True)
-    recommendations = Column(JSON)
+    recommendations = Column(JSON, nullable=False)
