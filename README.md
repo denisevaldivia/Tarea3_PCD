@@ -15,11 +15,11 @@ En este repositorio podremos encontrar una **API REST** con FastAPI que gestiona
 }
 ```
 ### `2. Obtener usuario por ID`
-**GET** /api/v1/users/{user_id}
+**GET** `/api/v1/users/{user_id}`
 - **Descripción:** Recupera los datos de un usuario específico por su ID.
 
 ### `3. Actualizar usuario`
-**PUT** /api/v1/users/{user_id}
+**PUT** `/api/v1/users/{user_id}`
 - **Descripción:** Actualiza los datos de un usuario existente.
 ```json
 {
@@ -30,8 +30,8 @@ En este repositorio podremos encontrar una **API REST** con FastAPI que gestiona
   "recommendations": ["Hola"]
 }
 ```
-### 4. Eliminar usuario`
-**DELETE** /api/v1/users/{user_id}
+### `4. Eliminar usuario`
+**DELETE** `/api/v1/users/{user_id}`
 - **Descripción:** Elimina un usuario de la base de datos.
 
 ## **Ambiente y dependencias**
