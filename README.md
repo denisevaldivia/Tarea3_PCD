@@ -5,7 +5,6 @@ En este repositorio podremos encontrar una **API REST** con FastAPI que gestiona
 ### `1. Crear usuario`
 **POST** `/api/v1/users/`  
 - **Descripción:** Crea un nuevo usuario en la base de datos.  
-- **Body (JSON):**
 ```json
 {
   "user_name": "Diana",
